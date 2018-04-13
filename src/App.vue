@@ -28,11 +28,11 @@ export default {
   top: 0;
   bottom: 0;
   left: 0;
-  width: 245px;
+  width: 260px;
   background: #fff;
 }
 .content-page {
-  margin-left: 245px;
+  margin-left: 260px;
   padding: 25px 25px 15px 25px;
 }
 </style>

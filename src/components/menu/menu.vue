@@ -76,8 +76,6 @@
 @import '../../styles/menu.scss';
 </style>
 
-
-
 <script>
 import $ from "jQuery";
 import "metismenu";
