@@ -1,5 +1,5 @@
 <template>
-    <nav class="sidebar-nav">
+    <nav class="sidebar-nav" ref="menu">
       <ul class="metismenu" id="menu">
            <li>
              <a class="has-arrow" href="#">
@@ -83,7 +83,7 @@ import 'fontawesome';
 
 export default {
   mounted: function() {
-    $("#menu").metisMenu({ toggle: true });
+    $(this.$refs.menu).metisMenu({ toggle: true });
   }
 };
 </script>

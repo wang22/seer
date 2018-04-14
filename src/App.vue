@@ -1,6 +1,7 @@
 <template>
     <div class="wrapper">
         <div class="side-menu">
+            <Loading color="#333" type="xxx" />
             <Menu></Menu>
         </div>
         <div class="content-page">
