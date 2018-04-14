@@ -1,8 +1,10 @@
 <template>
     <div class="wrapper">
         <div class="side-menu">
-            <Loading color="#333" type="xxx" />
-            <Menu></Menu>
+            <ScrollPanel>
+                <Loading color="#333" type="xxx" />
+                <Menu></Menu>
+            </ScrollPanel>
         </div>
         <div class="content-page">
             <router-view></router-view>

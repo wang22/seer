@@ -25,6 +25,78 @@
              </ul>
            </li>
            <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
+             <a href="#">
+               <Icon type="app-store" />
+               Apps
+            </a>
+           </li>
+           <li>
              <a class="has-arrow" href="#" aria-expanded="false"><Icon type="500px" /> Menu 0</a>
              <ul aria-expanded="false" class="collapse">
                <li><a href="#">item 0.1</a></li>
@@ -77,7 +149,6 @@
 </style>
 
 <script>
-import $ from "jQuery";
 import "metismenu";
 import 'fontawesome';
 

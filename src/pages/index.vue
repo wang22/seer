@@ -5,5 +5,8 @@
     <Alert type="primary">ffffffffffffffffff</Alert>
     <Loading color="#333" type="ripple" />
     <Loading color="#ddd" type="circle" />
+    <ScrollPanel height="200px">
+      aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>aaa<br>
+    </ScrollPanel>
   </div>
 </template>
