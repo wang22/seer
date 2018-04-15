@@ -2,7 +2,6 @@
     <div class="wrapper">
         <div class="side-menu">
             <ScrollPanel>
-                <Loading color="#333" type="xxx" />
                 <Menu></Menu>
             </ScrollPanel>
         </div>
@@ -22,7 +21,7 @@ export default {
 <style>
 .wrapper {
   position: absolute;
-  background-color: #f3f6f8;
+  background-color: #f4f6f9;
   height: 100%;
   width: 100%;
 }

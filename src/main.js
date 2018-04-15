@@ -7,6 +7,7 @@ import Components from './components/index.js'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import './assets/scripts/index.js'
+import './styles/global.scss'
 
 Vue.config.productionTip = false
 

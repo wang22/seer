@@ -2,99 +2,18 @@
     <nav class="sidebar-nav" ref="menu">
       <ul class="metismenu" id="menu">
            <li>
-             <a class="has-arrow" href="#">
-               <Icon type="app-store" />
-               Apps
-             </a>
-             <ul aria-expanded="false" class="collapse">
-               <li>
-                 <a href="https://github.com/onokumus/metisMenu">
-                   Fork
-                 </a>
-               </li>
-               <li>
-                 <a href="https://github.com/onokumus/metisMenu">
-                   <span class="fa fa-fw fa-star"></span> Star
-                 </a>
-               </li>
-               <li>
-                 <a href="https://github.com/onokumus/metisMenu/issues">
-                   <span class="fa fa-fw fa-exclamation-triangle"></span> Issues
-                 </a>
-               </li>
-             </ul>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
-           </li>
-           <li>
-             <a href="#">
-               <Icon type="app-store" />
-               Apps
-            </a>
+             <router-link to="/">
+              <Icon type="app-store" />
+              Index
+             </router-link>
+             <router-link to="/button">
+              <Icon type="app-store" />
+              Button
+             </router-link>
+             <router-link to="/layout">
+              <Icon type="app-store" />
+              Layout
+             </router-link>
            </li>
            <li>
              <a class="has-arrow" href="#" aria-expanded="false"><Icon type="500px" /> Menu 0</a>
