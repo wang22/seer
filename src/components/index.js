@@ -8,6 +8,8 @@ import Breadcrumb from './breadcrumb/breadcrumb.vue'
 import Table from './table/table.vue'
 import Card from './card/card.vue'
 import Input from './form/input.vue'
+import Row from './grid/row.vue'
+import Col from './grid/col.vue'
 
 export default {
   Button,
@@ -19,5 +21,7 @@ export default {
   Breadcrumb,
   Table,
   Card,
-  Input
+  Input,
+  Row,
+  Col
 }

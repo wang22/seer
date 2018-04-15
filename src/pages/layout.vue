@@ -1,20 +1,36 @@
 <template>
   <div>
-      <div class="topbar">
-          <div class="title-box">
-            <h4>Typography</h4>
-            <Breadcrumb></Breadcrumb>
-          </div>
-          <div class="right-menu">
-            asdf
-          </div>
-      </div>
-      <Input />
-      <Input size="sm" />
-      <Input size="lg" />
-      <Input size="lg" disabled />
-      <Card>ss</Card>
-      <Table></Table>
+      <Row class="topbar">
+        <Col span="5"  class="title-box">
+          <h4>Typography</h4>
+          <Breadcrumb></Breadcrumb>
+        </Col>
+        <Col class="right-menu">
+          asdf
+        </Col>
+      </Row>
+      <Row>
+        <Col span="6">sss</Col>
+        <Col span="6">sss</Col>
+        <Col span="3">
+          <Input />
+        </Col>
+        <Col span="3">
+          <Input size="sm" />
+        </Col>
+        <Col span="3">
+          <Input size="lg" />
+        </Col>
+        <Col span="3">
+          <Input size="lg" disabled />
+        </Col>
+        <Col span="6">
+          <Card>ss</Card>
+        </Col>
+        <Col span="12">
+          <Table></Table>
+        </Col>
+      </Row>
   </div>
 </template>
 
@@ -24,11 +40,9 @@
   width: 100%;
 }
 .right-menu {
-  width: 50%;
   float: left;
 }
 .title-box {
-  width: 50%;
   float: left;
   h4 {
     font-size: 1.1rem;

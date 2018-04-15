@@ -20,13 +20,13 @@ export default {
 
 <style>
 .wrapper {
-  position: absolute;
+  position: relative;
   background-color: #f4f6f9;
-  height: 100%;
   width: 100%;
+  height: 100%;
 }
 .side-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -35,6 +35,9 @@ export default {
 }
 .content-page {
   margin-left: 260px;
-  padding: 25px 25px 15px 25px;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  padding: 15px;
 }
 </style>
