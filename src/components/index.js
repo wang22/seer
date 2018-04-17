@@ -10,6 +10,7 @@ import Card from './card/card.vue'
 import Input from './form/input.vue'
 import Row from './grid/row.vue'
 import Col from './grid/col.vue'
+import Badge from './badge/badge.vue'
 
 export default {
   Button,
@@ -23,5 +24,6 @@ export default {
   Card,
   Input,
   Row,
-  Col
+  Col,
+  Badge
 }

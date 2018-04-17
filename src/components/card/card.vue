@@ -1,8 +1,10 @@
 <template>
 <div class="card">
-  <img class="card-img-top" src="http://coderthemes.com/highdmin/default/assets/images/small/img-1.jpg" alt="Card image cap">
+  <img class="card-img-top" v-if="image" :src="image" alt="Card image cap">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title" v-if="title">{{title}}</h5>
+    <h6 class="card-subtitle mb-2 text-muted" v-if="subtitle">{{subtitle}}</h6>
+    <slot></slot>
   </div>
 </div>
 </template>
@@ -15,4 +17,33 @@
   background-color: #fff;
   box-shadow: 0 10px 60px 0 rgba(29,29,31,.09)
 }
+.card-title {
+  color: #000;
+  font-size: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+.card-subtitle {
+  color: #768093;
+  font-size: 0.875rem;
+}
 </style>
+
+<script>
+  export default {
+  name: "Button",
+  props: {
+    image: String,
+    title: String,
+    subtitle: String
+  },
+  computed: {
+    classes() {
+      let cls = `btn btn-${this.type}`;
+      if(this.size){
+        cls += ` btn-${this.size}`;
+      }
+      return cls;
+    }
+  }
+};
+</script>

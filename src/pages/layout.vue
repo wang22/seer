@@ -20,12 +20,19 @@
         </Col>
         <Col span="3">
           <Input size="lg" />
+          <Badge type="secondary">badge</Badge>
+          <Badge type="primary">badge</Badge>
+          <Badge type="primary" pill>badge</Badge>
+          <Button type="primary" class="mt-2">badge <Badge type="light">30+</Badge></Button>
         </Col>
         <Col span="3">
           <Input size="lg" disabled />
         </Col>
         <Col span="6">
-          <Card>ss</Card>
+          <Card title="Revenue" subtitle="Activity from 4 Jan 2017 to 10 Jan 2017">
+            <Button type="dark">你好啊， 按钮</Button>
+            <Button type="primary">你好啊， 按钮</Button>
+          </Card>
         </Col>
         <Col span="12">
           <Table></Table>
