@@ -7,7 +7,10 @@
 export default {
   name: "Button",
   props: {
-    type: String,
+    type: {
+      type: String,
+      default: "primary"
+    },
     size: String,
     outline: Boolean
   },

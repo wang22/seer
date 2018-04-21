@@ -35,7 +35,7 @@
             <div>{{code}}</div>
           </Card>
           <Card title="Sizes BUTTONS" subtitle="Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes.">
-            <Button type="primary" class="mb-2" size="sm">Small</Button>
+            <Button type="primary" class="mb-2" size="sm" disabled>Small</Button>
             <Button type="primary" class="mb-2">Default</Button>
             <Button type="primary" class="mb-2" size="lg">Large</Button>
           </Card>
