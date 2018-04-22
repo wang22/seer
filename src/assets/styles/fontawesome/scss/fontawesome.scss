@@ -52,3 +52,17 @@
   font-style: normal;
   font-weight: normal;
 }
+
+@mixin xz($deg:360){
+  transform:rotate($deg+deg);
+  -webkit-transform:rotate($deg+deg);
+  -moz-transform:rotate($deg+deg);
+  -o-transform:rotate($deg+deg);
+  -ms-transform:rotate($deg+deg);
+}
+
+.faw-spin {
+  // animation: 2s infinite linear;
+  // transform:rotate(360deg);
+  @include xz();
+}

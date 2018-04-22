@@ -1,12 +1,9 @@
 <template>
-  <i :class="classes"></i>
+  <i :class="buildClass"></i>
 </template>
 
-<style lang="sass" scoped>
-@import '../../assets/styles/fontawesome/scss/fontawesome.scss'
-// @import '../../assets/styles/fontawesome/scss/fa-brands.scss'
-// @import '../../assets/styles/fontawesome/scss/fa-regular.scss'
-// @import '../../assets/styles/fontawesome/scss/fa-solid.scss'
+<style lang="scss" scoped>
+@import '../../assets/styles/fontawesome4/scss/font-awesome.scss';
 </style>
 
 <script>
@@ -15,10 +12,17 @@ export default {
   name: "Icon",
   props: {
     type: String,
+    spin: Boolean
   },
   computed: {
-    classes() {
-      return `faw fa-${this.type}`;
+    buildClass() {
+      return [
+        'fa ',
+        {
+          [`fa-${this.type} `]: !!this.type,
+          [`fa-spin `]: !!this.spin
+        }
+      ]
     }
   }
 };

@@ -30,7 +30,7 @@
 
 <script>
   export default {
-  name: "Button",
+  name: "Card",
   props: {
     image: String,
     title: String,

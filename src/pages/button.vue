@@ -35,10 +35,77 @@
             <div>{{code}}</div>
           </Card>
           <Card title="Sizes BUTTONS" subtitle="Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes.">
-            <Button type="primary" class="mb-2" size="sm" disabled>Small</Button>
+            <Button type="primary" class="mb-2" size="sm">Small</Button>
             <Button type="primary" class="mb-2">Default</Button>
             <Button type="primary" class="mb-2" size="lg">Large</Button>
           </Card>
+          <Card title="Sizes BUTTONS" subtitle="Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes.">
+            <Button type="primary" class="mb-2" icon="angle-right">Default</Button>
+            <Button type="primary" class="mb-2" loading disabled>Default</Button>
+            <Icon type="circle-notch" spin />
+          </Card>
+          <Card title="Sizes BUTTONS" subtitle="Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes.">
+            <Dropdown text="xcxcxc" type="danger">
+              <DropdownItem>dd</DropdownItem>
+              <DropdownItem>dd</DropdownItem>
+              <DropdownItem>dd</DropdownItem>
+            </Dropdown>
+
+            <Dropdown text="xcxcxc" split>
+              <DropdownItem>dd</DropdownItem>
+              <DropdownItem>dd</DropdownItem>
+              <DropdownItem>dd</DropdownItem>
+            </Dropdown>
+
+            <Dropdown text="xcxcxc" split size="lg">
+              <DropdownItem>dd</DropdownItem>
+              <DropdownItem>dd</DropdownItem>
+              <DropdownItem>dd</DropdownItem>
+            </Dropdown>
+
+            <Dropdown text="xcxcxc" split size="sm">
+              <DropdownItem active>dd</DropdownItem>
+              <DropdownItem>dd</DropdownItem>
+              <DropdownItem disabled>dd</DropdownItem>
+            </Dropdown>
+          </Card>
+
+          <Card title="Sizes BUTTONS" subtitle="Fancy larger or smaller buttons? Add .btn-lg or .btn-sm for additional sizes.">
+            <ButtonGroup type="secondary">
+              <Button type="success">Default</Button>
+              <Button>Default</Button>
+              <Button>Default</Button>
+            </ButtonGroup>
+
+            <ButtonGroup type="primary">
+              <Button type="primary" icon="angle-right">Default</Button>
+              <Button type="primary" icon="angle-right">Default</Button>
+              <Button type="primary" icon="angle-right">Default</Button>
+            </ButtonGroup>
+
+            <ButtonGroup type="primary">
+              <Button type="primary" icon="angle-right">Default</Button>
+              <Button type="primary" icon="angle-right">Default</Button>
+              <Dropdown text="xcxcxc">
+                <DropdownItem active>dd</DropdownItem>
+                <DropdownItem>dd</DropdownItem>
+                <DropdownItem disabled>dd</DropdownItem>
+              </Dropdown>
+            </ButtonGroup>
+
+            <ButtonGroup type="primary" vertical>
+              <Button type="primary" icon="angle-right">Default</Button>
+              <Button type="primary" icon="angle-right">Default</Button>
+              <Dropdown text="xcxcxc">
+                <DropdownItem active>dd</DropdownItem>
+                <DropdownItem>dd</DropdownItem>
+                <DropdownItem disabled>dd</DropdownItem>
+              </Dropdown>
+            </ButtonGroup>
+
+          </Card>
+
+          <Table></Table>
         </Col>
       </Row>
   </div>
